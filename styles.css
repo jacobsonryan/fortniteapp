@@ -82,3 +82,9 @@ h1 {
 	padding-top: 15px;
 	color: #f0ed63;
 }
+
+@media(max-width: 600px) {
+	h1, #random, #coord, #text {
+		top: 175px;
+	}
+}
