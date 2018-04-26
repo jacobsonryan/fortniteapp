@@ -93,6 +93,7 @@ h1 {
 @media(max-width: 600px) {
 	h1, #random, #coord, #text {
 		top: 175px;
+		transform: scale(0.9);
 	}
 }
 
@@ -100,11 +101,13 @@ h1 {
 @media(max-width: 498px) {
 	h1, #random, #coord, #text {
 		top: 125px;
+		transform: scale(0.8);
 	}
 }
 
 @media(max-width: 480px) {
 	h1, #random, #coord, #text {
 		top: 80px;
+		transform: scale(0.7);
 	}
 }
