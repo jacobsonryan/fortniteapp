@@ -16,14 +16,15 @@ body {
 
 h1 {
 	position: relative;
-	top: 150px;
+	top: 250px;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 72px;
-	letter-spacing: 4px;
-	text-shadow: 3px 3px 6px #000;
+/*	letter-spacing: 4px;
+*/	text-shadow: 3px 3px 6px #000;
 	color: white;
+	margin: 0;
 }
 
 .wrapper {
@@ -32,8 +33,8 @@ h1 {
 
 #random {
 	position: relative;
-	margin: 10px;
-	top: 125px;
+	top: 250px;
+	margin: 15px;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: 'Luckiest Guy', cursive;
@@ -52,8 +53,8 @@ h1 {
 
 #coord {
 	position: relative;
-	margin: 10px;
-	top: 125px;
+	top: 250px;
+	margin: 15px;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: 'Luckiest Guy', cursive;
@@ -72,13 +73,37 @@ h1 {
 
 #text {
 	position: relative;
-	top: 150px;
+	top: 250px;
+	margin: 15px;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Luckiest Guy', cursive;
-	letter-spacing: 4px;
-	text-shadow: 3px 3px 6px #000;
+/*	letter-spacing: 4px;
+*/	text-shadow: 3px 3px 6px #000;
 	font-size: 72px;
-	padding-top: 15px;
 	color: #f0ed63;
+}
+
+@media(max-width: 743px) {
+	h1, #random, #coord, #text {
+		top: 175px;
+	}
+}
+
+@media(max-width: 600px) {
+	h1, #random, #coord, #text {
+		top: 175px;
+	}
+}
+
+@media(max-width: 498px) {
+	h1, #random, #coord, #text {
+		top: 125px;
+	}
+}
+
+@media(max-width: 480px) {
+	h1, #random, #coord, #text {
+		top: 80px;
+	}
 }
