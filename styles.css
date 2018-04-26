@@ -100,7 +100,7 @@ h1 {
 
 @media(max-width: 498px) {
 	h1, #random, #coord, #text {
-		top: 125px;
+		top: 60px;
 		transform: scale(0.8);
 		margin: 0px;
 	}
@@ -108,7 +108,7 @@ h1 {
 
 @media(max-width: 480px) {
 	h1, #random, #coord, #text {
-		top: 80px;
+		top: 60px;
 		transform: scale(0.7);
 		margin: 0px;
 	}
